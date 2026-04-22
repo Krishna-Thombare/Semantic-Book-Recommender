@@ -118,11 +118,11 @@ def recommend_books(
         if len(authors_split) == 2:
             authors_str = f'{authors_split[0]} and {authors_split[1]}'
         elif len(authors_split) > 2:
-            authors_str = f'{', '.join(authors_split[:-1])}, and {authors_split[-1]}'
+            authors_str = ", ".join(authors_split[:-1]) + f", and {authors_split[-1]}"
         else:
             authors_str = row['authors']
 
-        caption = f'{row['title']} by {authors_str}: {truncated_description}'
+        caption = f"{row['title']} by {authors_str}: {truncated_description}"
         results.append((row['large_thumbnail'], caption))
 
     return results

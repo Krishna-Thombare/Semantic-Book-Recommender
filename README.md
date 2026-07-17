@@ -17,10 +17,10 @@ suggestions based on user input (description). By analyzing book descriptions, t
 5. Visualization:- matplotlib, seaborn
 
 ## 🏗 **Working:**
-1. Text Embedding: Converts book descriptions into high-dimensional vectors using HuggingFaceEmbeddings.
-2. Vector Search: Stores & retrieves embeddings using ChromaDB.
-3. Filtering: Sorts recommendations based on category & emotional tone.
-4. Interactive UI: Users input book descriptions & receive recommendations instantly.
+1. Text Embedding:- Converts book descriptions into high-dimensional vectors using HuggingFaceEmbeddings.
+2. Vector Search:- Stores & retrieves embeddings using ChromaDB.
+3. Filtering:- Sorts recommendations based on category & emotional tone.
+4. Interactive UI:- Users input book descriptions & receive recommendations instantly.
 
 ## 🚀 **Live Demo:**
 https://huggingface.co/spaces/Replit17/Semantic-Book-Recommender

@@ -1,6 +1,5 @@
 ## 📌**Overview:**
-The LLM Semantic Book Recommender is a machine learning-powered system that leverages Large Language Models (LLMs) and vector search to provide personalized book 
-suggestions based on user input (description). By analyzing book descriptions, the system finds similar books based on semantic meaning and emotional tone.
+The LLM Semantic Book Recommender is an AI-powered recommendation system that uses Large Language Models (LLMs) and vector embeddings to provide personalized book recommendations. It analyzes the semantic meaning and emotional tone of user input and book descriptions, then performs vector similarity search to identify books that best match the user's interests.
 
 ## ✨ **Features:**
 1. Semantic Search:- Find books based on content similarity using HuggingFace embeddings.

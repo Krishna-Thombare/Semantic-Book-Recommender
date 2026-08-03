@@ -4,7 +4,7 @@ The LLM Semantic Book Recommender is an AI-powered recommendation system that us
 ## ✨ **Features:**
 1. Semantic Search:- Find books based on content similarity using HuggingFace embeddings.
 2. Emotion Based Filtering:- Select books based on emotional tones like happy, surprising, angry, suspenseful and sad.
-3. Interactive UI:- A Gradio-based web dashboard for seamless user experience.
+3. Interactive UI:- A Gradio-based web dashboard.
 4. Fast Recommendations:- Efficient vector search using ChromaDB.
 5. Text Classification:- Extracts sentiment and emotion from book descriptions.
 

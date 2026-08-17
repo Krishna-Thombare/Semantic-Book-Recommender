@@ -9,11 +9,11 @@ The LLM Semantic Book Recommender is an AI-powered recommendation system that us
 5. Text Classification:- Extracts sentiment and emotion from book descriptions.
 
 ## 🛠️ **Tech Stack:**
-1. NLP & Machine Learning:- sentence-transformers, torch, transformers
-2. Data Processing:- pandas, numpy
-3. Vector Search:- chromadb, langchain
-4. Web App UI:- gradio
-5. Visualization:- matplotlib, seaborn
+1. NLP & Machine Learning:- Sentence-Transformers, Torch, Transformers
+2. Data Processing:- Pandas, Numpy
+3. Vector Search:- Chromadb, Langchain
+4. Web App UI:- Gradio
+5. Visualization:- Matplotlib, Seaborn
 
 ## 🏗 **Working:**
 1. Text Embedding:- Converts book descriptions into high-dimensional vectors using HuggingFaceEmbeddings.
